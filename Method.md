@@ -544,4 +544,5 @@ class BridgeGame {
     this.addBridgeCondition();
   }
 }
+
 ```
