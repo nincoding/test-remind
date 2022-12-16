@@ -35,7 +35,7 @@
   const { Console } = require("@woowacourse/mission-utils");
   ```
  11. 해당 프로젝트에서의 진행 흐름(연결고리)을 순서대로 파악하고, 순서에 맞춰 작업을 진행하면 속도가 향상된다. (실행예시를 참고하면 이해하기 쉬움)
-  - 해당 파일에서 클래스를 불러올때,
+  - 해당 파일에서 클래스를 불러올때, 아래처럼 constructor를 활용한다.
   ```
     constructor() {
     this.gameController = new GameController();
@@ -44,7 +44,6 @@
     this.gameController.play();
   }
   ```
-  처럼 constructor를 활용한다.
  12. 실행예시를 참고하며, 게임시작 후 준비되어야 할 작업(객체 생성)에 대해 고민한다.
  13. 게임시작 후 계산되어야 할 작업(객체)에 대해 고민한다.
  14. 재실행이 필요한 경우(초기화 객체)에 대해 고민한다.
